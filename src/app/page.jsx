@@ -1,6 +1,6 @@
 import { SignInButton, SignUpButton, UserButton } from '@clerk/nextjs'
 import { currentUser } from '@clerk/nextjs/server'
-import { ACESSO } from '@lib/acesso'
+import { ACESSO } from '@/lib/acesso'
 import Link from 'next/link'
 
 export default async function Home() {
